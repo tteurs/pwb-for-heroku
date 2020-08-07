@@ -50,7 +50,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'pwb', git: 'https://github.com/etewiah/property_web_builder'
+gem 'pwb', git: 'https://github.com/tteurs/property_web_builder.git'
 # , branch: 'link-model-support'
 # gem 'globalize', git: 'https://github.com/globalize/globalize'
 gem 'paloma', git: 'https://github.com/fredngo/paloma'
