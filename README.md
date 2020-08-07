@@ -31,7 +31,10 @@ CD into the directory for the project and run the ff:
 ```
 heroku create
 heroku addons:create heroku-postgresql
+heroku addons:create heroku-redis:hobby-dev
 heroku addons:create cloudinary:starter
+heroku addons:create sendgrid:starter
+heroku addons:create sentry:f1
 git push heroku master
 heroku run rake db:migrate
 heroku run rake pwb:db:seed
